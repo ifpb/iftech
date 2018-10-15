@@ -95,3 +95,13 @@ a {
 .image img {
     border-radius: 50px;
 }
+
+.logo-curso {
+    max-width: 200px;
+}
+
+@media screen and (max-width: 768px){
+    .logo-curso {
+        max-width: 100px;
+    }
+}
